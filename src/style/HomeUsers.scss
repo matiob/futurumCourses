@@ -1,0 +1,101 @@
+.rowHome{
+    margin-top: 100px;
+    width: 50%;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.homeContainer{
+    
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 87%;
+}
+
+.welcome{
+    display: flex;
+    justify-content: start;
+
+    .back{
+        position: relative; 
+        width: 600px; 
+        height: 400px;
+        font-size: 24px; 
+        text-align: center; 
+        background-color: black;
+        border: 2px solid #017c76d3;
+    }
+    
+    .homeWelcome{
+        position: absolute;
+        left: 195px;
+        bottom: 395px;
+        width: 600px;   
+        height: 400px;
+        font-size: 24px; 
+        text-align: center; 
+         background-image: url("https://i.pinimg.com/564x/94/24/f5/9424f50e6dcdd230d42aea1d2a1e5614.jpg") ;
+         border: 2px solid #017c76d3;
+         box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.671);
+        
+        h1{
+            color: black;
+        }
+        p{
+            color: beige;
+        }
+    }
+    
+    div#imagen {
+        position: absolute; 
+        left: 1200px;
+        bottom: 370px;
+        width: 400px;
+        height: 400px;
+        background-size: cover;/*sólo para ejemplo*/
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png");
+        margin: 30px auto;
+        box-shadow: 2px 2px 2px 2px #2f2f2fa6;
+      }
+      
+      div#info {
+        position:absolute;
+        overflow:hidden;
+        width: 400px;
+        height: 400px;
+        background-color: rgba(12, 12, 12, 0.644);
+        opacity:0;
+        transition: opacity 0.3s;
+      }
+      
+      div#imagen:hover div#info {
+        opacity:1;
+      }
+     
+      
+      p#descripcion {
+        font-size: 1rem;
+        text-align: center;
+        align-items: center;
+        margin-top: 400px;
+        color: white;
+
+        transition: margin-top 0.8s;
+      }
+      
+      div#imagen:hover p#descripcion {
+        margin-top: 150px;
+      }
+      
+     
+}
+
+
+.controlColorHome{
+    border-radius: 50%;
+    margin-top: 120px;
+    height: 50px;
+    width: 50px;
+    color:  black;
+    background-color: black;
+}

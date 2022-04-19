@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,400,700,800|Open+Sans:300');
+
+//card con la info precio,etc
+ .singleCardLogin {
+    box-shadow: 2px 6px 6px 6px rgba(#000, 0.3);
+    background: #40916C;
+    height: 500px;
+    width: 400px;
+    margin-top: 150px;
+    border-radius: 50px;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+
+    .cardTitle{
+        padding: 0 40px;
+
+        .btnAdd{
+          display: flex;
+          justify-content: center;
+          text-align: center  ;
+        }
+    }
+
+  }
+

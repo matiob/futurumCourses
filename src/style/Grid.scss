@@ -1,0 +1,22 @@
+
+.grid {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.cardGrid{
+  display: block;
+  background-color: #017c76d3;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+}
+.borderMark{
+  padding-left: 10px;
+  margin-right: 200px;
+}
+

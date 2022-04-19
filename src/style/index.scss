@@ -1,0 +1,42 @@
+//importar aca los archivos de estilo
+@import "./SingleCourse.scss";
+@import "./Buttons.scss";
+@import "./Grid.scss";
+@import "./Footer.scss";
+@import "./Team.scss";
+@import "./Login.scss";
+@import "./AddCategory.scss";
+@import "./AdminCategories.scss";
+@import "./Header.scss";
+@import "./Welcome.scss";
+@import "./HomeUsers.scss";
+@import "./SideBar.scss";
+@import "./NavBar.scss";
+@import "./Register.scss";
+@import "./ShoppingHistory.scss";
+@import "./Checkout.scss";
+@import "./EditCourse.scss";
+@import "./Carrito.scss";
+
+
+body {
+ background-color: rgb(243, 241, 237);
+ margin: 0;
+ padding: 0;
+}
+
+.totalNav{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 10%;
+}
+
+.erro404{
+    width: auto;
+    margin:250px auto;
+    img{
+        border-radius: 50px;
+    }
+}
